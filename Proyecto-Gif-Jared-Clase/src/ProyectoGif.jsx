@@ -4,7 +4,7 @@ import { GifGrid } from './components/GifGrid';
 export const ProyectoGif = () => { 
    
 
-  const [categories, setCategories] = useState(["Fornite"]); 
+  const [categories, setCategories] = useState(["Deku"]); 
   // Definimos una función onAddCategory que toma un argumento newCategory 
   const onAddCategory = (newCategory) => { 
     
@@ -26,6 +26,6 @@ y una categoría */}
       {categories.map((category) => ( 
         <GifGrid key={category} category={category} /> 
       ))} 
-    </> 
+    </>  
   ); 
 }; 
